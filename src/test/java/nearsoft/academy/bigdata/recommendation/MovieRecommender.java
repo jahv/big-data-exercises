@@ -37,7 +37,8 @@ public class MovieRecommender {
         //Transform Data With the path of output file
         transformData = new TransformData();
 
-        transformData.setOutputFile("C:/datos/moviesOutput.txt");
+        //First we set the output file, before to start the parsing
+        transformData.setOutputFile( filePath );
 
         //Function who calls the convertion of an input file
         transformData.transformToPreferenceFile(filePath);

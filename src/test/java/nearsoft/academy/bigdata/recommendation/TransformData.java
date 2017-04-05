@@ -13,7 +13,10 @@ class TransformData
     public ManageList manageList = new ManageList();
 
     public void setOutputFile(String file){
-        filenameOutput = file;
+
+        String [] temp = file.split("\\.");
+
+        filenameOutput = temp[0] + "Output." + temp[1];
     }
 
     public void transformToPreferenceFile(String file)
