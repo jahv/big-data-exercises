@@ -1,7 +1,7 @@
 #Gitignore File for movie recommender
 
 #ideaFolder
-.idea/
+/.idea
 
 #test
-target/
+/target
