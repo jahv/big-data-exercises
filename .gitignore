@@ -1,10 +1,1 @@
-#Gitignore File for movie recommender
-
-#ideaFolder
-/.idea
-/.idea/**.*
-.idea
-\.idea
-
-#test
-/target
+*.iml
